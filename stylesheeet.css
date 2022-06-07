@@ -23,10 +23,19 @@ a{
     position: sticky;
     top: 0%;
 }
-table,th,td {background-color: rgb(233, 215, 76);
+table,th,td {
+        background-color: rgb(233, 215, 76);
        border: 1px solid;
        table-layout:fixed;
-       width: 300px;
+       width: 100%;
        height: 50px;
       }
+
 table, th {background-color: rgb(227, 55, 55);}
+td:hover{
+    background-color: rgb(227, 55, 55);
+}
+
+.flex-container{
+    display: flex;
+}
